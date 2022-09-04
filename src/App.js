@@ -1,6 +1,7 @@
 import './App.css';
 import React,{useEffect} from 'react';
 import Header from './Header';
+import Footer from './Footer'
 import Home from './Home';
 import {BrowserRouter as Router ,Switch,Route}
 from "react-router-dom";
@@ -83,7 +84,7 @@ const[{},dispatch]=useStateValue();
       <Home/>
       </Route>
       </Switch>
-      {/* <Footer/> */}
+       <Footer/>
     </div>
     </Router>
   );

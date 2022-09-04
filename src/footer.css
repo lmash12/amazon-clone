@@ -4,4 +4,77 @@
     padding-bottom: 1%;
     background-color: #37475A;
     color: white;
+    cursor: pointer;
 }
+
+.Footer{
+    
+    height: 1000px;
+    width: 100%;
+    background-color:  rgb(27, 43, 57);
+}
+
+.center{
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(27, 43, 57);
+    color: whitesmoke;
+}
+
+.footer-list{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: none;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+}
+.footer-list li{
+    list-style-type: none;
+}
+
+
+.footer-list a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+
+
+.About-us{
+    font-size: 20px;
+}
+
+
+.Careers{
+    font-size: 20px;
+    margin-left: 120px;
+    margin-bottom: none;
+}
+
+.press-release{
+    font-size: 20px;
+    margin-left: 125px;
+}
+
+.amazon-cares{
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+
+
+.heading{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 141px;
+    margin-top: 40px;
+    background-color:  rgb(27, 43, 57);
+}
+
+
